@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+}
+
+nav{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(39, 38, 38);
+}
+
+nav a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-container{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.hero-image{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img{
+    max-width: auto;
+    max-height: 70vh;
+    border-radius: 12%;
+}
+
+.name-highlight{
+    color: rgb(224, 111, 11);
+}
+
+.contact-form{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-form h2{
+    width: 100%;
+}
+
+.contact-form form{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-form form .input-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 50vw;
+    border-radius: 5px;
+    color: black;
+    padding: 1.5rem;
+    margin: 1rem;
+}
