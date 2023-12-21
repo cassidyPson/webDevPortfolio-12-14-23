@@ -88,7 +88,7 @@ nav a{
 }
 
 .contact-form form .input-box input,
-.contact-form form textarea{
+.contact-form textarea{
     width: 50vw;
     border-radius: 5px;
     color: black;
